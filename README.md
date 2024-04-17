@@ -65,7 +65,7 @@ conda clean --all
 ```
 ## 2. Usage<a name="usage"></a>
 
-An example of how to execute the software in a Jupyter Notebook is available in the repository (`example_jupyter.ipynb`). To run it, activate your `morQuest` environment with `conda activate morQuest` (if it's not already active) and then type:
+An example of how to execute the software in a Jupyter Notebook is available in the repository (`morQuest_Simple.ipynb`). To run it, activate your `morQuest` environment with `conda activate morQuest` (if it's not already active) and then type:
 ```
 jupyter notebook
 ```
