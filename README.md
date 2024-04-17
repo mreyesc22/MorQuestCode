@@ -10,7 +10,11 @@ The assumptions that the model develops are:
 -	The model is applied to short tidal basins (1/20 of the tidal wavelength), implying that the water level gradients are negligible.
 -	The model assumes that the systems’ reaction to SLR can be represented by a single adaptation time scale.
 
-The code develops calculation based on: i) sediment transport, ii) hydrodynamic changes, iii) expansion of the intertidal area based on the sediment supplement of the river, iv) changes of the coastline under the variation of sea level, and v) time adaptation scale.
+The code develops calculation based on: 
+i) sediment transport, 
+ii) hydrodynamic changes, 
+iii) expansion of the intertidal area based on the sediment supplement of the river, 
+iv) changes of the coastline under the variation of sea level, and v) time adaptation scale.
 
 ![MorQuest_Methology](https://github.com/mreyesc22/MorQuestCode/assets/43484469/706dc49b-a4cc-445e-a099-6ef70875ab8c)
 
