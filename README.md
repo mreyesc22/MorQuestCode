@@ -25,3 +25,35 @@ Therefore, the interest and development of the code were based on the following 
 - Performing calibration of the developed model.
 - Conducting long-term projections to provide valuable insights for sustainable coastal management.
 
+## 1. Installation<a name="introduction"></a>
+
+### 1.1 Create an environment with Anaconda
+
+To run the toolbox you first need to install the required Python packages in an environment. To do this we will use **Anaconda**, which can be downloaded freely [here](https://www.anaconda.com/download/). 
+
+Once you have it installed on your PC, open the Anaconda prompt (in Mac and Linux, open a terminal window) and use the `cd` command (change directory) to go the folder where you have downloaded this repository (e.g., `C:\Users\LENOVO\Desktop\morQuest`).
+
+Create a new environment named `morQuest` with all the required packages by entering these commands in succession:
+
+```
+conda create -n morQuest
+conda activate morQuest
+
+conda install pandas
+conda install numpy scipy
+conda install -c conda-forge matplotlib notebook -y
+conda install -c conda-forge geopandas -y
+```
+All the required packages have now been installed and are self-contained in an environment called `morQuest`. Always make sure that the environment is activated with:
+
+```
+conda activate morQuest
+```
+
+To confirm that you have successfully activated morQuest, your terminal command line prompt should now start with (morQuest).
+
+:warning: **In case errors are raised** :warning:: clean things up with the following command (better to have the Anaconda Prompt open as administrator) before attempting to install `morQuest` again:
+```
+conda clean --all
+```
+
