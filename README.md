@@ -58,15 +58,59 @@ conda clean --all
 ```
 ## 2. Usage<a name="usage"></a>
 
-An example of how to execute the software in a Jupyter Notebook is available in the repository (`example_jupyter.ipynb). To run it, activate your `morQuest` environment with `conda activate morQuest` (if it's not already active) and then type:
+An example of how to execute the software in a Jupyter Notebook is available in the repository (`example_jupyter.ipynb`). To run it, activate your `morQuest` environment with `conda activate morQuest` (if it's not already active) and then type:
 ```
 jupyter notebook
 ```
 
 A web browser window will open. Point to the directory where you downloaded this repository and click on `morQuest_Simple.ipynb`. A Jupyter Notebook combines formatted text and code. To run the code, place your cursor inside one of the code sections and click on the `run cell` button (or press `Shift` + `Enter`) and progress forward.
 
-![image](https://user-images.githubusercontent.com/7217258/165960239-e8870f7e-0dab-416e-bbdd-089b136b7d20.png)
+![00_Initial_Setting](https://github.com/mreyesc22/MorQuestCode/assets/43484469/715218dd-21e4-45fc-aaea-f6bc3d6a2328)
 
-The following sections show an example of how to run the full CoastSat workflow at Alsea bay (USA).
+The following sections show an example of how to run the full Alsea bay workflow at Alsea bay (USA).
 
-### 2.1 Retrieval of the satellite images<a name="retrieval"></a>
+### 2.1  Define study area
+For this example, we will input the **Data Manually**. Therefore, this Jupyter notebook file can be used to conduct the analysis in a general manner.
+
+![01_Study_Area](https://github.com/mreyesc22/MorQuestCode/assets/43484469/befb4739-d356-4691-98bc-aaa6e68f7bf0)
+
+### 2.2 Input Data
+In the initial phase of the study, the focus lies on the selection of comprehensive datasets that furnish sufficient information for subsequent analysis. Following this, the subsequent step involves gathering pertinent data, encompassing intertidal area (`Ai`), channel area (`Ac`), tidal difference (`dH`), river flow (`Qr`),change in sediment supply (`ssc`), closure depth (`cd`), dune height (`du`), active shorezone slope (`betas`), and sea level projection (`slr`). 
+
+Furthermore, calibration and sensitivity parameters within the model were identified, as listed below.
+
+- `incAi`: Rate of annual intertidal area expansion. 
+- `erc`: Factor governing the entrapment of river-supplied sediment from the river into the channel.
+- `ecs`: Factor controlling the entrapment of river-supplied sediment from the channel into the shoreline.
+- `fis`: Factor for transport from river to intertidal area under river sediment supply change.
+- `fs`: Factor responsible for the distribution of intertidal area deposition to intertidal area width and channel slope.
+- `si`: Factor influencing the increase in intertidal area slope at its edge.
+- `faw`: Factor responsible for reducing `fs` and `fis` in case of a decrease in yearly sediment transport from the river into the channel.
+
+![02_Input_data](https://github.com/mreyesc22/MorQuestCode/assets/43484469/5f82c967-f00c-4f06-9faa-e52ee1215705)
+
+### 2.3 Execution of the code
+
+The Morquest code is programmed within the file `morquest.py`. To execute it, simply run the code `run_morquest(input_data, 'output.mat')`. The results are saved in a '.mat file'.
+
+![03_RunCode](https://github.com/mreyesc22/MorQuestCode/assets/43484469/4961e34e-3ebb-422a-bd4f-0abd79def014)
+
+Additionally, a summary table of the general information regarding the main output variables has been generated.
+
+![03_1_table](https://github.com/mreyesc22/MorQuestCode/assets/43484469/b216c892-0466-477c-9eed-2fa82540fb66)
+
+### 2.4 Graphical Representation of Results
+The results extracted within morQuest enable analysis of how the main elements evolve over the analyzed time period.
+
+- Intertidal Area, Channel Area and Adaptation Time Scale. `km$^2$`
+- Intertidal Depth and Channel Depth. `m`
+- Intertidal, Channel and Delta Volume. `m$^3$`
+- Intertidal, Channel and Delta Sed Volume. `m$^3$`
+- Sediment transport for Qci, Qcd, Qcs and Qso. `m$^3$/year`
+  
+![04_Graphics](https://github.com/mreyesc22/MorQuestCode/assets/43484469/4cee439d-58c8-4b1c-a0e5-cf460eab3c22)
+
+
+
+
+
