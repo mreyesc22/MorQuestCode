@@ -12,7 +12,7 @@ The assumptions that the model develops are:
 
 The code develops calculation based on: i) sediment transport, ii) hydrodynamic changes, iii) expansion of the intertidal area based on the sediment supplement of the river, iv) changes of the coastline under the variation of sea level, and v) time adaptation scale.
 
-https://github.com/mreyesc22/MorQuestCode/assets/43484469/e2b35f51-23bb-43e9-a5d1-a218900c7b7c
+![MorQuest_Methology](https://github.com/mreyesc22/MorQuestCode/assets/43484469/706dc49b-a4cc-445e-a099-6ef70875ab8c)
 
 ### Project description
 
@@ -58,8 +58,7 @@ conda clean --all
 ```
 ## 2. Usage<a name="usage"></a>
 
-An example of how to run the software in a Jupyter Notebook is provided in the repository (`example_jupyter.ipynb`). To run this, first activate your `morQuest` environment with `conda activate morQuest` (if not already active), and then type:
-
+An example of how to execute the software in a Jupyter Notebook is available in the repository (`example_jupyter.ipynb). To run it, activate your `morQuest` environment with `conda activate morQuest` (if it's not already active) and then type:
 ```
 jupyter notebook
 ```
