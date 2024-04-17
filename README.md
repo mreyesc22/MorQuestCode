@@ -30,7 +30,7 @@ Therefore, the interest and development of the code were based on the following 
 - Performing calibration of the developed model.
 - Conducting long-term projections to provide valuable insights for sustainable coastal management.
   
-The theoretical foundation and development of the code are detailed in the research conducted by M. (2023). This analysis is delineated in the thesis titled **"Assessing Sea Level Rise Impact on Estuarine Morphodynamics"** submitted to obtain the academic degree of Master in Water and Sustainable Development at IHE Delft. You can access the thesis via the following link:https://ihedelftrepository.contentdm.oclc.org/digital/collection/masters1/id/338392
+The theoretical foundation and development of the code are detailed in the research conducted by Reyes, M (2023). This analysis is delineated in the thesis titled **"Assessing Sea Level Rise Impact on Estuarine Morphodynamics"** submitted to obtain the academic degree of Master in Water and Sustainable Development at IHE Delft. You can access the thesis via the following link:https://ihedelftrepository.contentdm.oclc.org/digital/collection/masters1/id/338392
 
 ## 1. Installation<a name="introduction"></a>
 
