@@ -50,10 +50,24 @@ All the required packages have now been installed and are self-contained in an e
 conda activate morQuest
 ```
 
-To confirm that you have successfully activated morQuest, your terminal command line prompt should now start with (morQuest).
+To confirm that you have successfully activated morQuest, your terminal command line prompt should now start with (`morQuest`).
 
 :warning: **In case errors are raised** :warning:: clean things up with the following command (better to have the Anaconda Prompt open as administrator) before attempting to install `morQuest` again:
 ```
 conda clean --all
 ```
+## 2. Usage<a name="usage"></a>
 
+An example of how to run the software in a Jupyter Notebook is provided in the repository (`example_jupyter.ipynb`). To run this, first activate your `morQuest` environment with `conda activate morQuest` (if not already active), and then type:
+
+```
+jupyter notebook
+```
+
+A web browser window will open. Point to the directory where you downloaded this repository and click on `morQuest_Simple.ipynb`. A Jupyter Notebook combines formatted text and code. To run the code, place your cursor inside one of the code sections and click on the `run cell` button (or press `Shift` + `Enter`) and progress forward.
+
+![image](https://user-images.githubusercontent.com/7217258/165960239-e8870f7e-0dab-416e-bbdd-089b136b7d20.png)
+
+The following sections show an example of how to run the full CoastSat workflow at Alsea bay (USA).
+
+### 2.1 Retrieval of the satellite images<a name="retrieval"></a>
