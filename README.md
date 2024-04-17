@@ -74,14 +74,15 @@ A web browser window will open. Point to the directory where you downloaded this
 
 ![00_Initial_Setting](https://github.com/mreyesc22/MorQuestCode/assets/43484469/715218dd-21e4-45fc-aaea-f6bc3d6a2328)
 
-The following sections show an example of how to run the full Alsea bay workflow at Alsea bay (USA).
-
-### 2.1  Define study area
+The following sections provide an example of running the complete Alsea Bay (USA) workflow, considering **manual data input**.
+Note: 
+## 3. Case of manual data input to the Morquest model
+### 3.1  Define study area
 For this example, we will input the **Data Manually**. Therefore, this Jupyter notebook file can be used to conduct the analysis in a general manner.
 
 ![01_Study_Area](https://github.com/mreyesc22/MorQuestCode/assets/43484469/befb4739-d356-4691-98bc-aaa6e68f7bf0)
 
-### 2.2 Input Data
+### 3.2 Input Data
 In the initial phase of the study, the focus lies on the selection of comprehensive datasets that furnish sufficient information for subsequent analysis. Following this, the subsequent step involves gathering pertinent data, encompassing intertidal area (`Ai`), channel area (`Ac`), tidal difference (`dH`), river flow (`Qr`),change in sediment supply (`ssc`), closure depth (`cd`), dune height (`du`), active shorezone slope (`betas`), and sea level projection (`slr`). 
 
 Furthermore, calibration and sensitivity parameters within the model were identified, as listed below.
@@ -96,7 +97,7 @@ Furthermore, calibration and sensitivity parameters within the model were identi
 
 ![02_Input_data](https://github.com/mreyesc22/MorQuestCode/assets/43484469/5f82c967-f00c-4f06-9faa-e52ee1215705)
 
-### 2.3 Execution of the code
+### 3.3 Execution of the code
 
 The Morquest code is programmed within the file `morquest.py`. To execute it, simply run the code `run_morquest(input_data, 'output.mat')`. The results are saved in a '.mat file'.
 
@@ -106,7 +107,7 @@ Additionally, a summary table of the general information regarding the main outp
 
 ![03_1_table](https://github.com/mreyesc22/MorQuestCode/assets/43484469/b216c892-0466-477c-9eed-2fa82540fb66)
 
-### 2.4 Graphical Representation of Results
+### 3.4 Graphical Representation of Results
 The results extracted within morQuest enable analysis of how the main elements evolve over the analyzed time period.
 
 - Intertidal Area, Channel Area and Adaptation Time Scale. `km^2`
