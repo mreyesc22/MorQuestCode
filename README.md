@@ -17,10 +17,11 @@ https://github.com/mreyesc22/MorQuestCode/assets/43484469/e2b35f51-23bb-43e9-a5d
 ### Project description
 
 The Morquest code addresses the fundamental question:How can we globally assess the impact of climate change on estuarine morphodynamics at first order?
+
 Therefore, the interest and development of the code were based on the following objectives:
 
--Utilizing satellite imagery as the primary data source.
--Developing a model capable of conducting simulations with limited data availability.
--Performing calibration of the developed model.
--Conducting long-term projections to provide valuable insights for sustainable coastal management.
+- Utilizing satellite imagery as the primary data source.
+- Developing a model capable of conducting simulations with limited data availability.
+- Performing calibration of the developed model.
+- Conducting long-term projections to provide valuable insights for sustainable coastal management.
 
