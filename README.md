@@ -74,9 +74,9 @@ A web browser window will open. Point to the directory where you downloaded this
 
 ![00_Initial_Setting](https://github.com/mreyesc22/MorQuestCode/assets/43484469/715218dd-21e4-45fc-aaea-f6bc3d6a2328)
 
-The following sections provide an example of running the complete Alsea Bay (USA) workflow, considering **manual data input**.
-Note: 
-## 3. Case of manual data input to the Morquest model
+The following sections provide an example of running the complete **Alsea Bay (USA)** workflow.
+
+## 3. Manual data input
 ### 3.1  Define study area
 For this example, we will input the **Data Manually**. Therefore, this Jupyter notebook file can be used to conduct the analysis in a general manner.
 
@@ -117,6 +117,10 @@ The results extracted within morQuest enable analysis of how the main elements e
 - Sediment transport for Qci, Qcd, Qcs and Qso. `m^3/year`
   
 ![04_Graphics](https://github.com/mreyesc22/MorQuestCode/assets/43484469/4cee439d-58c8-4b1c-a0e5-cf460eab3c22)
+
+## 4. Automated access to input values
+** Project in process**
+
 
 
 
