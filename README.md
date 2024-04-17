@@ -102,11 +102,11 @@ Additionally, a summary table of the general information regarding the main outp
 ### 2.4 Graphical Representation of Results
 The results extracted within morQuest enable analysis of how the main elements evolve over the analyzed time period.
 
-- Intertidal Area, Channel Area and Adaptation Time Scale. `km$^2$`
+- Intertidal Area, Channel Area and Adaptation Time Scale. `km^2`
 - Intertidal Depth and Channel Depth. `m`
-- Intertidal, Channel and Delta Volume. `m$^3$`
-- Intertidal, Channel and Delta Sed Volume. `m$^3$`
-- Sediment transport for Qci, Qcd, Qcs and Qso. `m$^3$/year`
+- Intertidal, Channel and Delta Volume. `m^3`
+- Intertidal, Channel and Delta Sed Volume. `m^3`
+- Sediment transport for Qci, Qcd, Qcs and Qso. `m^3/year`
   
 ![04_Graphics](https://github.com/mreyesc22/MorQuestCode/assets/43484469/4cee439d-58c8-4b1c-a0e5-cf460eab3c22)
 
