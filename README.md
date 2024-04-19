@@ -50,6 +50,7 @@ conda install pandas
 conda install numpy scipy
 conda install -c conda-forge matplotlib notebook -y
 conda install -c conda-forge geopandas -y
+conda install -c conda-forge ipywidgets
 ```
 All the required packages have now been installed and are self-contained in an environment called `morQuest`. Always make sure that the environment is activated with:
 
