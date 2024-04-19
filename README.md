@@ -119,7 +119,42 @@ The results extracted within morQuest enable analysis of how the main elements e
 ![04_Graphics](https://github.com/mreyesc22/MorQuestCode/assets/43484469/4cee439d-58c8-4b1c-a0e5-cf460eab3c22)
 
 ## 4. Automated access to input values
-** Project in process**
+The automated version was developed by analyzing a case study of the *West Coast of the United States*, which encompasses around *8 estuaries*. A collection of photographs depicting the studied estuaries is also included.
+Additionally, in the Data folder, you will find the formats and references of the information sources that have been used in the code. 
+
+An example of how to execute the software in a Jupyter Notebook is available in the repository (`morQuest_CaseStudy.ipynb`). To run it, activate your `morQuest` environment with `conda activate morQuest` (if it's not already active) and then type:
+```
+jupyter notebook
+```
+
+*Note:These formats and references can be adapted for other estuaries or for any other applications that you may wish to apply them to.*
+
+### 4.1 Initial settings
+Compared to the simple routine (`morQuest_Simple.ipynb`), data collection functions were added in this Jupyter file.
+
+![01_initial_conditions](https://github.com/mreyesc22/MorQuestCode/assets/43484469/7cbfec6d-2955-4ed3-a85d-29c8d667e2d8)
+
+### 4.2 Photo Panel
+A photographic view of the analyzed estuaries will now be presented.
+
+![02_CaseStudy](https://github.com/mreyesc22/MorQuestCode/assets/43484469/42ec1fcc-5a6f-4812-a344-ccd2e2741c32)
+
+You must indicate the estuary under analysis.
+
+*Note: place the same name as indicated on the photographic panel.*
+
+![01_Study_Area](https://github.com/mreyesc22/MorQuestCode/assets/43484469/ac152a47-a8b4-4097-b829-44109fa7344f)
+
+### 4.3 Input Data
+In the initial phase of the study, the focus lies on the selection of comprehensive datasets that furnish sufficient information for subsequent analysis. Following this, the subsequent step involves gathering pertinent data, encompassing intertidal area (`Ai`), channel area (`Ac`), tidal difference (`dH`), river flow (`Qr`), closure depth (`cd`) and active shorezone slope (`betas`). 
+
+![DataCollection (1)](https://github.com/mreyesc22/MorQuestCode/assets/43484469/7563efd5-6375-47dc-88b8-740762dd0d74)
+
+### 4.4 Execution of the code
+After acquiring the data, the model is executed similarly to the jupyter `morQuest_Simple.ipynb`example. 
+As part of the project's case study, we processed the values previously calculated from satellite information (which can be found in the references). The rest of the values were entered manually, and you can find them detailed in the investigation report. 
+During the calibration phase, we determined that the `si` factor was the most sensitive, with a characteristic value ranging from `0.06 to 0.13` for U.S West Coast. 
+
 
 
 
