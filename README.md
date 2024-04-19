@@ -130,7 +130,7 @@ jupyter notebook
 *Note:These formats and references can be adapted for other estuaries or for any other applications that you may wish to apply them to.*
 
 ### 4.1 Initial settings
-Compared to the simple routine (`morQuest_Simple.ipynb`), data collection functions were added in this Jupyter file.
+In this jupyter file the data collection functions were added.
 
 ![01_initial_conditions](https://github.com/mreyesc22/MorQuestCode/assets/43484469/7cbfec6d-2955-4ed3-a85d-29c8d667e2d8)
 
