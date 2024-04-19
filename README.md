@@ -119,7 +119,7 @@ The results extracted within morQuest enable analysis of how the main elements e
 ![04_Graphics](https://github.com/mreyesc22/MorQuestCode/assets/43484469/4cee439d-58c8-4b1c-a0e5-cf460eab3c22)
 
 ## 4. Automated access to input values
-The automated version was developed by analyzing a case study of the *West Coast of the United States*, which encompasses around *8 estuaries*. A collection of photographs depicting the studied estuaries is also included.
+The automated version was developed by analyzing a case study of the **U.S. West Coast**, which encompasses around **8 estuaries**. A collection of photographs depicting the studied estuaries is also included.
 Additionally, in the Data folder, you will find the formats and references of the information sources that have been used in the code. 
 
 An example of how to execute the software in a Jupyter Notebook is available in the repository (`morQuest_CaseStudy.ipynb`). To run it, activate your `morQuest` environment with `conda activate morQuest` (if it's not already active) and then type:
